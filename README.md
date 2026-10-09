@@ -1,4 +1,4 @@
-# Sumário MD — gere o sumário do seu README com as âncoras certas (Node.js)
+# Sumário MD: gere o sumário do seu README com as âncoras certas (Node.js)
 
 Fazer sumário à mão é chato e quebra fácil: basta um acento, um ponto de interrogação ou um título repetido para o link não bater com a âncora que o GitHub cria. O **Sumário MD** lê os títulos do seu Markdown e monta a lista de links usando as mesmas regras de âncora do GitHub, inclusive com acentos: `Instalação rápida` vira `#instalação-rápida`.
 
@@ -170,4 +170,4 @@ Issues e pull requests são bem-vindos.
 
 ## Licença
 
-MIT — veja [LICENSE](LICENSE).
+MIT. Veja [LICENSE](LICENSE).

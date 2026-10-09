@@ -24,7 +24,7 @@ const EMPHASIS = [
 ];
 const ENTITIES = {
   amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: String.fromCharCode(0xa0), copy: '©', reg: '®',
-  trade: '™', hellip: '…', mdash: '—', ndash: '–', laquo: '«', raquo: '»', ldquo: '“',
+  trade: '™', hellip: '…', mdash: '\u2014', ndash: '\u2013', laquo: '«', raquo: '»', ldquo: '“',
   rdquo: '”', lsquo: '‘', rsquo: '’', middot: '·', deg: '°', ordm: 'º', ordf: 'ª', euro: '€',
 };
 

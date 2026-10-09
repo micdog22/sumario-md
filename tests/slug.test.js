@@ -15,7 +15,7 @@ test('remove pontuação, símbolos e emoji', () => {
   assert.equal(anchor('C++ & C#'), 'c--c');
   assert.equal(anchor('🚀 Começando'), '-começando');
   assert.equal(anchor('Versão 2.0: novidades!'), 'versão-20-novidades');
-  assert.equal(anchor('Antes — depois'), 'antes--depois');
+  assert.equal(anchor('Antes \u2014 depois'), 'antes--depois');
   assert.equal(anchor('Preço: R$ 10,00'), 'preço-r-1000');
 });
 

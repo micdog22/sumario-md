@@ -5,7 +5,7 @@ import { SumarioError, generateToc, updateToc } from '../src/index.js';
 
 const { version } = JSON.parse(readFileSync(new URL('../package.json', import.meta.url), 'utf8'));
 
-const HELP = `sumario-md — gera o sumário do seu Markdown com as âncoras do GitHub
+const HELP = `sumario-md: gera o sumário do seu Markdown com as âncoras do GitHub
 
 Uso:
   sumario-md [opções] [arquivo...]
