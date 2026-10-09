@@ -1,0 +1,39 @@
+{
+  "name": "sumario-md",
+  "version": "1.0.0",
+  "description": "Gere o sumário do seu README com as âncoras certas, iguais às do GitHub (com acentos).",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": "./src/index.js",
+  "bin": {
+    "sumario-md": "bin/sumario-md.js"
+  },
+  "files": [
+    "src",
+    "bin"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "markdown",
+    "sumario",
+    "toc",
+    "readme",
+    "github",
+    "ancoras",
+    "cli"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micdog22/sumario-md.git"
+  },
+  "homepage": "https://github.com/micdog22/sumario-md#readme",
+  "bugs": {
+    "url": "https://github.com/micdog22/sumario-md/issues"
+  }
+}
